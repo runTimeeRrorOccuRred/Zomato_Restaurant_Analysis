@@ -26,7 +26,10 @@ The goal is to help **restaurant owners, investors, and food enthusiasts** bette
 The dataset consists of two main tables:
 1. **Country_data** – Includes country codes and country names.  
 2. **Restaurant_data** – Contains details like restaurant name, city, cuisines, price range, ratings, votes, cost for two, and service features.
-download dataset. [country_data](dataset/Country-Code.csv)
+download dataset.
+
+[country_data](dataset/Country-Code.csv)
+
 [zomato_data](dataset/Zomato_Dataset.csv)
 ---
 
