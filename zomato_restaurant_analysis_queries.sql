@@ -163,7 +163,7 @@ group by case when
 		Country<>'India' then 'Other Country'
 		else 'India' end
 
-/*1. Market Penetration Analysis - India vs International 
+/* Q12. Market Penetration Analysis - India vs International 
     - Compare Zomato's market presence and performance across key countries.
     - 'India', 'United States', 'UAE', 'Singapore', 'Australia'*/
 
@@ -181,7 +181,7 @@ where country in ('India','United States','UAE','Singapore','Australia')
 group by country
 order by 5 desc
 
-/*2. Cuisine Diversity Analysis by Indian Cities
+/* Q13. Cuisine Diversity Analysis by Indian Cities
     - Measure culinary diversity across Indian cities.*/
 
 select city, count(distinct Cuisines) as 'Different types of food'
@@ -191,4 +191,5 @@ on rs.CountryCode=cn.Country_Code
 where country='India'
 group by City
 order by 2 desc
+
 
