@@ -95,4 +95,4 @@ You can find the full SQL code in [zomato_restaurant_analysis_query.sql](./zomat
 ---
 
 ## 📄 Documents
-- [Zomato Restaurant Analysis Report (Word File)](documents/Zomato_Restaurant_Data_Analysis_document.docx)
+- [Zomato Restaurant Analysis Report (Word File)](Zomato_Restaurant_Data_Analysis_document.docx)
